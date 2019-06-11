@@ -222,7 +222,7 @@ namespace Microsoft.AspNet.OData.Query.Validators
             else
             {
                 WildcardSelectItem wildCardSelectItem = selectItem as WildcardSelectItem;
-                if (wildCardSelectItem != null)
+                if (wildCardSelectItem != null && pathStructuredType != null)
                 {
                     foreach (var property in pathStructuredType.StructuralProperties())
                     {
