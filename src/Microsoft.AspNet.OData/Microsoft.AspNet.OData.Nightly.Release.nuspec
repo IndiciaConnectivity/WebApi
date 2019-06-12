@@ -21,9 +21,9 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="$ProductRoot$\Microsoft.AspNet.OData.dll" target="lib\net45" />
-    <file src="$ProductRoot$\Microsoft.AspNet.OData.pdb" target="lib\net45" />
-    <file src="$ProductRoot$\Microsoft.AspNet.OData.xml" target="lib\net45" />
+    <file src="bin\debug\Microsoft.AspNet.OData.dll" target="lib\net45" />
+    <file src="bin\debug\Microsoft.AspNet.OData.pdb" target="lib\net45" />
+    <file src="bin\debug\Microsoft.AspNet.OData.xml" target="lib\net45" />
     <file src="$SourcesRoot$\src\Microsoft.AspNet.OData\**\*.cs" target="src\Microsoft.AspNet.OData" />
     <file src="$SourcesRoot$\src\Microsoft.AspNet.OData.Shared\**\*.cs" target="src\Microsoft.AspNet.OData.Shared" />
   </files>
